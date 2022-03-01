@@ -45,7 +45,7 @@ svm = SVC(kernel = 'sigmoid')
 ### Naive Bayes
 
 ```python
-gaussiannb= GaussianNB()
+gaussiannb = GaussianNB()
 ```
 
 ### XGBoost
