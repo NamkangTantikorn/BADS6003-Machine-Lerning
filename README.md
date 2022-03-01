@@ -27,13 +27,13 @@ logmodel = LogisticRegression(max_iter=10000, C=0.05)
 ### Decision Tree
 
 ```python
-dtree = DecisionTreeClassifier(criterion='gini') #criterion = entopy, gini
+dtree = DecisionTreeClassifier(criterion='gini') # criterion = entopy, gini
 ```
 
 ### Random Forest
 
 ```python
-rfc = RandomForestClassifier(n_estimators = 2000)#criterion = entopy,gini
+rfc = RandomForestClassifier(n_estimators = 2000) # criterion = entopy, gini
 ```
 
 ### Support Vector Machine
